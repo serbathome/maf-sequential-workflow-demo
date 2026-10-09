@@ -1,0 +1,13 @@
+[project]
+name = "agents"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.12"
+dependencies = [
+    "agent-framework-foundry>=1.13.1",
+    "agent-framework-orchestrations>=1.2.0",
+    "azure-identity>=1.26.0",
+    "mcp>=1.24.0,<2",
+]
+
